@@ -13,4 +13,4 @@ https://api.aftership.com
 
 
 #Courier
-* [Get All Couriers](/aftership/AfterShip/api/v2/couriers.md#get-all-couriers)
+* [Get All Couriers](/aftership/AfterShip/api/v2/couriers.md#getting-all-couriers)

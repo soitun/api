@@ -37,44 +37,10 @@ Resource URI
 
 The ISO 3166 country code can refer to this [wiki page](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)
 
-###The support couriers and their slug names
+###To get the supported couriers
+[Get All Couriers](/aftership/AfterShip/api/v2/couriers.md#getting-all-couriers)
 
-Courier Name | courier (slug name)
-----------|-----------
-Aramex | aramex
-Argentina OCA E-Pak | oca-ar
-Australia Post | australia-post
-Brazil Correios | brazil-correios
-Canada Post | canada-post
-China EMS | china-ems
-Correos de España | spain-correos-es
-DHL | dhl
-DHL Germany | dhl-germany
-DHL Global Mail | dhl-global-mail
-DPD | dpd
-Danmark Post | danmark-post
-Fedex | fedex
-Fedex UK | fedex-uk
-Flash Courier | flash-courier
-Hong Kong Post | hong-kong-post
-India Post | india-post
-Israel Post | israel-post
-Korea Post | korea-post
-Malaysia Post | malaysia-post
-OnTrac | ontrac
-Parcel Force | parcel-force
-Portugal CTT | portugal-ctt
-Royal Mail | royal-mail
-Russian Post | russian-post
-S.F. Express | sf-express
-Singapore Post | singapore-post
-Singapore Speedpost | singapore-speedpost
-Star Track Australia | star-track
-Swiss Post | swiss-post
-TNT | tnt
-Thailand Thai Post | thailand-post
-UPS | ups
-USPS | usps
+
 
 ####example
 ```
@@ -97,7 +63,7 @@ there are several possiblities for success as false;
 * courier is not supported now
 * internal error
 
-==================================
+---
 
 
 #### Getting One Tracking Shipment Result
@@ -122,9 +88,6 @@ Resource URI
 ```
 api_key=755a12083dd17420ec4cbc8a3a60016a8d617d08&tracking_number=CL719526662DE&courier=dhl-germany
 ```
-
-
-
 
 ####response
 
