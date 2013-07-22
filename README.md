@@ -1,4 +1,16 @@
-#Home
+#AfterShip V3 API
+Last update: 2013-07-15
+
+The API V3 is released.
+
+We strongly suggest to update your code to the latest 3.0
+
+https://www.aftership.com/docs/api/3.0
+
+The API V2 will be end of support soon.
+
+
+
 
 #AfterShip V2 API
 
@@ -8,24 +20,15 @@ The AfterShip API is implemented as JSON over HTTP using all four verbs (GET/POS
 
 All API usage happens through AfterShip applications, created by either website owners for their own sites, or by AfterShip developer for use by website owners.
 
-Website owners can create applications for themselves through their own account -> API Key
-
-[https://www.aftership.com/connect](https://www.aftership.com/connect)
 
 Developers create applications through their account page.
-
-Please note that API calls are limited to making a maximum of 100 calls to each user. This limit resets every 600 seconds. If your application needs a higher limit, contact support@aftership.com
 
 
 ####API end point
 
-https://api.aftership.com
+```
+https://api.aftership.com/v2
+```
 
 
-##How To Get the API Key
 
-* After sign in to your account:
-  
-	* Top Menu -> Account -> Account Summary
-	* Click `Add store`
-	* Choose the `API Key`
